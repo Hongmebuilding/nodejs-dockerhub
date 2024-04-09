@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: Hongmebuilding/nodejs-github-action:${{ env.CURRENT_TIME }}
+        tags: Hongmebuilding/node:${{ env.CURRENT_TIME }}
